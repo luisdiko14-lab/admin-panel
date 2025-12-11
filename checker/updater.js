@@ -8,8 +8,8 @@ const interval = setInterval(() => {
     clearInterval(interval);
     status.textContent = "Login checked successfully! ✅";
   } else {
-    progress += 0.2; // Increase by 0.2%
+    progress += 1.2; // Increase by 1.2%
     loadingBar.style.width = progress + '%';
     loadingBar.textContent = Math.floor(progress) + '%';
   }
-}, 1); // every 0.01 seconds
+}, 300); // every 0.3 seconds
