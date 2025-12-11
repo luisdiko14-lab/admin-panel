@@ -1,3 +1,4 @@
+alert("Welcome!")
 let progress = 0;
 const loadingBar = document.getElementById('loadingBar');
 const status = document.getElementById('status');
@@ -11,4 +12,4 @@ const interval = setInterval(() => {
     loadingBar.style.width = progress + '%';
     loadingBar.textContent = Math.floor(progress) + '%';
   }
-}, 300); // every 0.3 seconds
+}, 1); // every 0.01 seconds
