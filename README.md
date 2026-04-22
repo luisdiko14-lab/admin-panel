@@ -5,7 +5,7 @@ This is a War Tycoon admin dashboard application built as a full-stack web appli
 # What are .s .ms and .ls files?
 s=script ms=nodule scirpt, .ls=local script
 
-# Addd lua files.
+# Added lua files.
 Folder directory: [LuaMethodGameFiles/](https://github.com/luisdiko14-lab/admin-panel/tree/main/LuaMethodGameFiles/HDAdmin)
 # User Preferences
 
